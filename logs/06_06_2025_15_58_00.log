@@ -1,0 +1,17 @@
+[2025-06-06 15:58:52,524] 17 root - INFO - \U0001f4e5 Data loading started from directory: UploadedFile(file_id='c6d8eb0f-23a0-4175-a825-ae84cc2130b4', name='MLDOC.txt', type='text/plain', size=22273, _file_urls=file_id: "c6d8eb0f-23a0-4175-a825-ae84cc2130b4"
+upload_url: "/_stcore/upload_file/648bb12c-48b7-4e0a-9e1f-29b5b6c0e42f/c6d8eb0f-23a0-4175-a825-ae84cc2130b4"
+delete_url: "/_stcore/upload_file/648bb12c-48b7-4e0a-9e1f-29b5b6c0e42f/c6d8eb0f-23a0-4175-a825-ae84cc2130b4"
+)
+[2025-06-06 15:58:52,525] 23 root - ERROR - \u274c Exception occurred while loading data.
+Traceback (most recent call last):
+  File "C:\Users\Nahid\OneDrive - Calmi2\Desktop\RAG_Series\RAG1\QAWithPDF\data_ingestion.py", line 18, in load_data
+    loader = SimpleDirectoryReader(data_path)
+  File "C:\Users\Nahid\OneDrive - Calmi2\Desktop\RAG_Series\RAG1\venv\Lib\site-packages\llama_index\core\readers\file\base.py", line 293, in __init__
+    if not self.fs.isdir(input_dir):
+           ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Nahid\OneDrive - Calmi2\Desktop\RAG_Series\RAG1\venv\Lib\site-packages\fsspec\implementations\local.py", line 145, in isdir
+    path = self._strip_protocol(path)
+  File "C:\Users\Nahid\OneDrive - Calmi2\Desktop\RAG_Series\RAG1\venv\Lib\site-packages\fsspec\implementations\local.py", line 248, in _strip_protocol
+    if path.startswith("file://"):
+       ^^^^^^^^^^^^^^^
+AttributeError: 'UploadedFile' object has no attribute 'startswith'

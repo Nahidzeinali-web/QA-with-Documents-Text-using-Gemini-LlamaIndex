@@ -1,0 +1,21 @@
+[2025-06-06 16:03:43,521] 17 root - INFO - \U0001f4e5 Data loading started from directory: Data
+[2025-06-06 16:03:44,191] 20 root - INFO - \u2705 Data loading completed. Total documents loaded: 1
+[2025-06-06 16:03:44,191] 26 root - INFO - \U0001f680 Initializing Gemini LLM model (gemini-pro)...
+[2025-06-06 16:03:44,620] 28 root - INFO - \u2705 Gemini LLM model loaded successfully.
+[2025-06-06 16:03:44,620] 20 root - INFO - \U0001f504 Initializing Gemini embedding model...
+[2025-06-06 16:03:44,621] 23 root - INFO - \u2699\ufe0f Setting up ServiceContext with chunk_size=800 and chunk_overlap=20...
+[2025-06-06 16:03:44,629] 44 root - ERROR - \u274c Failed to initialize embedding and index.
+Traceback (most recent call last):
+  File "C:\Users\Nahid\OneDrive - Calmi2\Desktop\RAG_Series\RAG1\QAWithPDF\embedding.py", line 24, in download_gemini_embedding
+    service_context = ServiceContext.from_defaults(
+        llm=model,
+    ...<2 lines>...
+        chunk_overlap=20
+    )
+  File "C:\Users\Nahid\OneDrive - Calmi2\Desktop\RAG_Series\RAG1\venv\Lib\site-packages\llama_index\core\service_context.py", line 33, in from_defaults
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: ServiceContext is deprecated. Use llama_index.settings.Settings instead, or pass in modules to local functions/methods/interfaces.
+See the docs for updated usage/migration: 
+https://docs.llamaindex.ai/en/stable/module_guides/supporting_modules/service_context_migration/
