@@ -112,7 +112,7 @@ tqdm
 ---
 
 ## 🙌 Acknowledgments
-- Suuny Savita (https://www.youtube.com/watch?v=hqJxgbxczOo&list=PLQxDHpeGU14Blorx3Ps1eZJ4XvKET1_vx)
+- [Suuny Savita] (https://www.youtube.com/watch?v=hqJxgbxczOo&list=PLQxDHpeGU14Blorx3Ps1eZJ4XvKET1_vx)
 - [LlamaIndex Documentation](https://docs.llamaindex.ai/)
 - [Google Gemini SDK](https://ai.google.dev/)
 - [Streamlit](https://streamlit.io/)
