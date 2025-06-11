@@ -113,7 +113,7 @@ tqdm
 
 ## 🙏 Acknowledgment
 This implementation is inspired by tutorials from **Sunny Savita's YouTube channel**:
-- [RAG Part](https://www.youtube.com/live/hqJxgbxczOo?si=GHAgA3AqKJ7b9dHu)
+- [YouTube channel](https://www.youtube.com/live/hqJxgbxczOo?si=GHAgA3AqKJ7b9dHu)
 - [LlamaIndex Documentation](https://docs.llamaindex.ai/)
 - [Google Gemini SDK](https://ai.google.dev/)
 - [Streamlit](https://streamlit.io/)
